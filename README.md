@@ -1,6 +1,12 @@
 # inventory-employee
 Inventario de Empleados y su Vacunación
 
+PROCESO DE COSTRUCCIÓN:
+-La aplicación fue realizada en un proyecto maven de spring boot con java 8.
+-Se utiliza JPA e Hibernate para el mapeo de datos hacia la capa de persistencia. 
+-Se usa la base de datos postgress. 
+-Se utiliza swagger para mostrar las api.
+
 PASOS PARA EJECUTAR LA APLICACIÓN:
 1. Antes de Iniciar, se debe crear la base de datos en Postgres.
   CREATE DATABASE inventory_employee;
