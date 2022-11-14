@@ -1,0 +1,41 @@
+/**********************ADMIN***************************/
+----CREACION DE EMPLEADO-------
+{
+  "identification":"1727276394",
+  "names": "Michelle Elizabeth",
+  "lastNames": "Sanchez Puma",
+  "email": "mail@mail.com"
+}
+
+----ACTUALIZACION DE EMPLEADO-------
+{
+  "identification":"1727276394",
+  "names": "Michelle Elizabeth",
+  "lastNames": "Sanchez Puma",
+  "email": "usuario@mail.com"
+}
+
+/**********************EMPLEADO************************/
+----ACTUALIZACION OTRA INFORMACION
+{  
+  "identification": "1727276394",
+  "names": "Michelle Elizabeth",
+  "lastNames": "Sanchez Puma",
+  "email": "mail@mail.com",
+  "birthdate": "1997-12-02",
+  "direction": "Quito",
+  "phone": "0981447336",
+  "vaccinationState": "Vacunado"
+}
+----CREACION DE VACUNA-------
+{
+  "vaccinationDate": "2022-01-01",
+  "vaccinationDose": 2,
+  "vaccineType": "Sputnik"
+}
+----ACTUALZIACION DE VACUNA-------
+{
+  "vaccinationDate": "2022-01-01",
+  "vaccinationDose": 1,
+  "vaccineType": "Sputnik"
+}
